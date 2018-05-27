@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<head>
+<title>My First Site</title>
+<style>
+body{
+    background:#04ff00;
+    margin:0;
+}
+.menu{
+    width:100%;
+    background:#ffcc00;
+    overflow:auto;
+}
+.menu ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    line-height:60px;
+
+}
+.menu li{
+    float:left;
+}
+.menu ul li a{
+    background:
+    text:-decoration:none;
+    width:130px;
+    display:block;
+    text-align:center;
+    color:#f2f2f2;
+    font-size:18px;
+    font-family:sans-serif;
+    letter-spacing:0.1px;
+
+}
+.search-form{
+      margin-top:15px;
+      float:right;
+      margin-right:100px;
+}
+input[type=text] {
+       padding:8px;
+	   border:none;
+	   font-size:17px;
+	   font-family:sans-serif;
+
+}
+button{
+    float:right;
+	background:green;
+	color:white;
+	border-radius:0 10px 10px 0;
+	cursor:pointer;
+	position:relative;
+	padding:9px;
+	font-family:sans-serif;
+	border:none;
+	font-size:16px;
+</style>
+<nav class="menu">
+    <ul>
+        <li><a href ="home.html">მთავარი</a></li>
+        <li><a href ="#"> გათამაშებები</a></li>
+        <li><a href ="#"> ჩვენს შესახებ</a></li>
+        <li><a href ="#"> კონტაქტი</a></li>
+
+   </ul>
+<form class="search-form">
+    <input type="text" placeholder="ძებნა">
+    <button> Go</button>
+</form>
+</nav>
+<body>
+<h1>Video</h1>
+<p align="left"><font size="5">this video about your PC performance</p></font>
+<video width="^500" height="500" controls >
+<source src="Video.mp4" type="video/mp4">
+</video>
+</body>
+</head>
+</html>
